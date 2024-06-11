@@ -1,0 +1,73 @@
+---
+import { Image } from "astro:assets";
+import avatar from "../assets/images/avatar.svg";
+---
+
+<div class="md:flex flex-row mt-48 justify-center space-x-16">
+  <div class="min-w-52 max-w-52 md:min-w-60 flex flex-col items-center">
+    <div class="mb-5">
+      <Image src={avatar} alt={"imagen de perfil"} />
+    </div>
+    <div class="disponible">Disponible para trabajar</div>
+  </div>
+  <section class="flex flex-col md: max-w-3xl">
+    <div>
+      <h1>
+        Jhon<span style="color: #00D2A0" ;>natan</span>
+      </h1>
+      <h2 class="titleH2">Desarrollador Frontend web y mobile.</h2>
+      <p class="pt-3">
+        Figma ipsum component variant main layer. Union team align mask
+        thumbnail main frame font figjam rectangle. Bullet polygon vector
+        flatten editor align background.
+      </p>
+    </div>
+    <div class="flex flex-row space-x-16 mt-10">
+      <a class="img" href="">
+        <img src="/src/assets/icons/linkedin.png" alt="" />
+      </a>
+      <a class="img" href="">
+        <img src="/src/assets/icons/github.png" alt="" />
+      </a>
+      <div class="bgLink flex items-center">
+        <a class="img" href="">
+          <img src="/src/assets/icons/google.png" alt="" />
+        </a>
+        <span class="px-5">j.alarcon@natandev.cl</span>
+        <div class="bgCopy flex items-center justify-center">
+          <a href="">
+            <img src="/src/assets/icons/copy.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<style>
+  .bgLink {
+    background-color: rgba(0, 210, 160, 0.2);
+    border-radius: 5px;
+  }
+
+  .bgCopy {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(0, 210, 160, 0.2);
+    width: 40px;
+    height: 45px;
+  }
+  .img:hover {
+    transform: scale(1.1);
+  }
+  .disponible {
+    background-color: #120a29;
+    border-radius: 5px;
+    padding-inline: 15px;
+    color: white;
+    font-weight: 200;
+    border-width: 1px;
+    border-color: #00d2a12e;
+    margin-bottom: 0;
+  }
+</style>

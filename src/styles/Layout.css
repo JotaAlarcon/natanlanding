@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    width: 100%;
+    background-color: #120A29;
+    color: white;
+    font-family: 'Saira', Arial, Helvetica, sans-serif;
+    background-image: url("../assets/images/LogoBG.png");  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom, center;   
+}
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+p {
+    font-size: 20px;
+    font-weight: 400;
+}

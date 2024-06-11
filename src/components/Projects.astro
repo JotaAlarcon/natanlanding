@@ -1,0 +1,23 @@
+---
+import Card from "./Card.astro";
+---
+
+<div class="flex justify-center mt-72">
+  <div class="flex flex-col md:max-w-5xl">
+    <div>
+      <h1 class="mb-20"><span style="color: #00D2A0">P</span>royectos</h1>
+    </div>
+    <Card
+      title="AnySoft HSE"
+      text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quidem explicabo nostrum tempora minus. Sunt, velit illo dolores obcaecati voluptatem quo tempore eaque ratione, quisquam cumque exercitationem sed fuga. Impedit."}
+      img="../../src/assets/images/anysoft.png"
+      pills={["React Native", "Android", "iOS"]}
+    />
+    <Card
+      title="Aplicación para reportes de trabajos"
+      text={" Eum quidem explicabo nostrum tempora minus. Sunt, velit illo dolores obcaecati voluptatem quo tempore eaque ratione, quisquam cumque exercitationem sed fuga. Impedit."}
+      img="../../src/assets/images/report.png"
+      pills={["React Native", "Android"]}
+    />
+  </div>
+</div>

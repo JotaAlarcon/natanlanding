@@ -1,0 +1,43 @@
+---
+import FormContact from "./FormContact.astro";
+---
+
+<div class="bgContact flex flex-row justify-center h-full">
+  <div class="flex flex-col items-start w-6/12">
+    <h1 class="mt-20 mb-5">Contacto</h1>
+    <div class="flex flex-col items-start mb-5">
+      <div class="bgLink flex items-center">
+        <a class="" href="">
+          <img src="/src/assets/icons/google.png" alt="" />
+        </a>
+        <span class="px-5">j.alarcon@natandev.cl</span>
+        <div class="bgCopy flex items-center justify-center">
+          <a href="">
+            <img src="/src/assets/icons/copy.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <span
+      >Si quieres que te ayude enviame un correo o completa el formulario</span
+    >
+    <FormContact />
+  </div>
+</div>
+
+<style>
+  .bgContact {
+    background-color: #120a29;
+  }
+  .bgLink {
+    background-color: rgba(0, 210, 160, 0.2);
+    border-radius: 5px;
+  }
+  .bgCopy {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(0, 210, 160, 0.2);
+    width: 40px;
+    height: 45px;
+  }
+</style>
